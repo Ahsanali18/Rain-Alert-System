@@ -5,13 +5,13 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Twilio Credentials (store these in your .env file)
+#Twilio Credentials (store these in your .env file)
 account_sid = os.getenv("TWILIO_ACCOUNT_SID")
 auth_token = os.getenv("TWILIO_AUTH_TOKEN")
 
-# Location Coordinates
-# Replace with your desired city's latitude & longitude
-# You can find coordinates using Google Maps or OpenWeatherMap Geocoding API
+#Location Coordinates
+#Replace with your desired city's latitude & longitude
+#You can find coordinates using Google Maps or OpenWeatherMap Geocoding API
 MY_LAT = 25.3801017   
 MY_LONG = 68.3750376 
 
