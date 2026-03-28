@@ -34,8 +34,9 @@ The system fetches weather data for the next few hours and automatically sends a
 ## 📂 Project Structure
 
 ```
-├── main.py
-├── .env (not included here)
+├── Rain Alert System
+    ├── main.py
+    ├── .env (not included here)
 ```
 ---
 
